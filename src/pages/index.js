@@ -9,7 +9,11 @@ import Blogs from "../components/Blogs"
 
 export default () => {
   return (
-    <Layout>index page</Layout>
+    <Layout>
+      <Hero />
+      <Services />
+
+    </Layout>
   )
 }
 // ...GatsbyImageSharpFluid
